@@ -48,6 +48,12 @@ tik-tak-toe-mcp
 
 ### With Goose
 
+#### Quick Install (One-Click)
+
+Click the link below if you have Goose installed:
+
+[Add Tic-Tac-Toe Extension to Goose](goose://extension?cmd=tik-tak-toe-mcp&id=tik_tak_toe&name=Tic-Tac-Toe%20Game&description=Play%20Tic-Tac-Toe%20with%20a%20separate%20UI)
+
 #### Option 1: Using Goose CLI (recommended)
 
 Start Goose with your extension enabled:
