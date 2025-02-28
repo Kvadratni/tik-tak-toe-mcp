@@ -52,7 +52,7 @@ tik-tak-toe-mcp
 
 Click the link below if you have Goose installed:
 
-[Add Tic-Tac-Toe Extension to Goose](goose://extension?cmd=tik-tak-toe-mcp&id=tik_tak_toe&name=Tic-Tac-Toe%20Game&description=Play%20Tic-Tac-Toe%20with%20a%20separate%20UI)
+`goose://extension?cmd=uvx&arg=tik-tak-toe-mcp&id=tik_tak_toe&name=Tic-Tac-Toe%20Game&description=Play%20Tic-Tac-Toe%20with%20a%20separate%20UI`
 
 #### Option 1: Using Goose CLI (recommended)
 
@@ -60,7 +60,7 @@ Start Goose with your extension enabled:
 
 ```bash
 # If you installed via PyPI
-goose session --with-extension "tik-tak-toe-mcp"
+goose session --with-extension "uvx tik-tak-toe-mcp"
 
 # Or if you want to use a local development version
 goose session --with-extension "python -m tik_tak_toe_mcp"
@@ -72,7 +72,7 @@ goose session --with-extension "python -m tik_tak_toe_mcp"
 2. Select "Add Extension" from the menu
 3. Choose "Command-line Extension"
 4. Enter a name (e.g., "Tic-Tac-Toe Game")
-5. For the command, enter: `tik-tak-toe-mcp`
+5. For the command, enter: `uvx tik-tak-toe-mcp`
 6. Follow the prompts to complete the setup
 
 ## Tools
