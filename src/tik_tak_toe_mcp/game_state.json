@@ -1,0 +1,1 @@
+{"board": [[" ", " ", "X"], [" ", "X", " "], [" ", " ", "O"]], "current_player": "O", "game_over": false, "winner": null, "agent_player": "X"}

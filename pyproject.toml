@@ -1,0 +1,17 @@
+[project]
+name = "tik-tak-toe-mcp"
+version = "0.1.0"
+description = "Tic-Tac-Toe MCP Server with separate UI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.2.0",
+    # tkinter is typically included with Python, so we don't need to add it as a dependency
+]
+
+[project.scripts]
+tik-tak-toe-mcp = "tik_tak_toe_mcp:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
