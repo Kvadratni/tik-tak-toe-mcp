@@ -48,12 +48,22 @@ tik-tak-toe-mcp
 
 ### With Goose
 
+#### Option 1: Using uvx (recommended)
+
+If you have installed Goose with `uvx`:
+
+```
+uvx goose --extension tik-tak-toe-mcp
+```
+
+#### Option 2: Manual setup
+
 1. Go to Settings > Extensions > Add
 2. Set Type to "StandardIO"
-3. Provide ID, name, and description
+3. Provide ID, name, and description (e.g., "tik-tak-toe", "Tic-Tac-Toe Game", "Play Tic-Tac-Toe with a UI")
 4. In the Command field, provide the path to the executable:
    ```
-   /path/to/python -m tik_tak_toe_mcp
+   tik-tak-toe-mcp
    ```
 
 ## Tools
