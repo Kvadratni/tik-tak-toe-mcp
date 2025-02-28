@@ -1,13 +1,21 @@
 # Tic-Tac-Toe MCP Extension
 
-A custom Model Context Protocol (MCP) extension for playing Tic-Tac-Toe with a separate UI.
+A showcase example of building Model Context Protocol (MCP) servers with interactive UIs. This project demonstrates how to create an MCP extension that launches a separate UI window for playing Tic-Tac-Toe.
+
+## Demo
+
+Watch a demo of the Tic-Tac-Toe MCP Extension in action:
+
+https://github.com/Kvadratni/tik-tak-toe-mcp/raw/main/assets/tic-tac-toe-compressed.mp4
 
 ## Features
 
-- Play Tic-Tac-Toe through Goose AI
-- Launches a separate UI window for the game
+- Demonstrates MCP server implementation with interactive UI components
+- Showcases separation of AI interaction and user interface
+- Play Tic-Tac-Toe through Goose AI with a separate visual interface
 - Provides tools to start a game, make moves, and check the board state
 - Includes game rules as a resource
+- Serves as a template for building your own MCP extensions with UIs
 
 ## Installation
 
@@ -84,3 +92,33 @@ goose session --with-extension "python -m tik_tak_toe_mcp"
 ## Resources
 
 - `game_rules`: The rules of Tic-Tac-Toe and how to use this extension
+
+## MCP Architecture Overview
+
+This project showcases the Model Context Protocol (MCP) architecture for building AI-powered applications with separate UIs:
+
+### Key Components
+
+1. **MCP Server**: Handles communication between the AI model and the UI
+   - Defines tools that the AI can use to interact with the game
+   - Manages game state and logic
+   - Provides a protocol for the UI to connect and receive updates
+
+2. **Interactive UI**: A separate process that provides visual interaction
+   - Renders the game board
+   - Captures user input
+   - Updates based on AI actions
+
+3. **Integration with Goose AI**: 
+   - The AI uses the provided tools to interact with the game
+   - Tool calls are processed by the MCP server
+   - Results are reflected in both the AI conversation and the UI
+
+### Benefits Demonstrated
+
+- **Separation of Concerns**: UI logic is separate from AI interaction
+- **Enhanced User Experience**: Visual interface alongside AI conversation
+- **Extensibility**: Pattern can be applied to more complex applications
+- **Reusability**: Same MCP server can work with different AI models
+
+This architecture can be adapted for various applications requiring both AI interaction and rich user interfaces.
