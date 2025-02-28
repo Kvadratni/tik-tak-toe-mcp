@@ -11,9 +11,23 @@ A custom Model Context Protocol (MCP) extension for playing Tic-Tac-Toe with a s
 
 ## Installation
 
+### Option 1: Install from PyPI
+
+Install directly from PyPI using `uvx` (recommended):
+```
+uvx install tik-tak-toe-mcp
+```
+
+Or using pip:
+```
+pip install tik-tak-toe-mcp
+```
+
+### Option 2: Install from source
+
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/tik-tak-toe-mcp.git
+   git clone https://github.com/Kvadratni/tik-tak-toe-mcp.git
    cd tik-tak-toe-mcp
    ```
 
