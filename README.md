@@ -6,7 +6,12 @@ A showcase example of building Model Context Protocol (MCP) servers with interac
 
 Watch a demo of the Tic-Tac-Toe MCP Extension in action:
 
-https://github.com/Kvadratni/tik-tak-toe-mcp/raw/main/assets/tic-tac-toe-compressed.mp4
+<video width="640" height="480" controls>
+  <source src="https://github.com/Kvadratni/tik-tak-toe-mcp/raw/main/assets/tic-tac-toe-compressed.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+[Direct link to video](https://github.com/Kvadratni/tik-tak-toe-mcp/raw/main/assets/tic-tac-toe-compressed.mp4)
 
 ## Features
 
